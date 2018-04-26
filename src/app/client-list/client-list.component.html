@@ -1,0 +1,27 @@
+<div class="list-header">
+	<mat-toolbar color="primary">
+		<button mat-icon-button [routerLink]="['/details']">
+			<mat-icon>edit</mat-icon>
+		</button>
+		<span>{{ center.name }} {{ date | date:"MM/dd/yy" }}</span>
+
+		<span class="toolbar-spacer"></span>
+
+		<button mat-icon-button (click)="navOpen()">
+			<mat-icon>menu</mat-icon>
+		</button>
+	</mat-toolbar>
+
+	<fieldset class="fieldset">
+		<label>Check-In Date</label>
+		<mat-radio-group [(ngModel)]="checkIn" (change)="filterList()">
+			<mat-radio-button value="today">{{ date | date:"MM/dd" }}</mat-radio-button>
+			<mat-radio-button value="any">Any</mat-radio-button>
+		</mat-radio-group>		
+	</fieldset>
+
+</div>
+
+<mat-list role="list">
+  <a [routerLink]="['/clients', client.id]" [routerLinkActive]="['active']" mat-list-item role="listitem" *ngFor="let client of clients | startDateFilter:checkIn === 'today' ? date : checkIn">{{ client.name }}</a>
+</mat-list>

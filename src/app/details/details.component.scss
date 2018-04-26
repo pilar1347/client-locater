@@ -1,0 +1,17 @@
+@import '~variables.scss';
+
+.mat-card {
+	width: 450px;
+}
+
+.fs-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.center-wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100% - 64px);
+}

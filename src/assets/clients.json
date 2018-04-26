@@ -1,0 +1,97 @@
+[
+	{
+		"id": 1,
+		"name": "John Atwater",
+		"startDate": "Mon Jan 1 2018 15:05:31 GMT-0600 (Central Standard Time)",
+		"endDate": "Tues Jan 1 2019 15:05:31 GMT-0600 (Central Standard Time)",
+		"company": "ABC Aerospace",
+		"course": "G650 Pilot Recurrent",
+		"classroom": "170",
+		"simSchedule": [
+			{
+				"startDate": "Mon Jan 1 2018 01:05:31 GMT-0600 (Central Standard Time)",
+				"endDate": "Fri Jan 5 2018 23:05:31 GMT-0600 (Central Standard Time)",
+				"sim": "SIM #2"
+			},
+			{
+				"startDate": "Mon Jan 8 2018 01:05:31 GMT-0600 (Central Standard Time)",
+				"endDate": "Tues Jan 1 2019 23:05:31 GMT-0600 (Central Standard Time)",
+				"sim": "SIM #3"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Brian Wright",
+		"startDate": "Mon Jan 1 2018 15:05:31 GMT-0600 (Central Standard Time)",
+		"endDate": "Tues Jan 1 2019 15:05:31 GMT-0600 (Central Standard Time)",
+		"company": "ABC Aerospace",
+		"course": "Pilot Recurrent",
+		"classroom": "211",
+		"simSchedule": [
+			{
+				"startDate": "Mon Jan 1 2018 01:05:31 GMT-0600 (Central Standard Time)",
+				"endDate": "Fri Jan 5 2018 23:05:31 GMT-0600 (Central Standard Time)",
+				"sim": "SIM #2"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Joseph Goodman",
+		"startDate": "Mon Jan 1 2018 15:05:31 GMT-0600 (Central Standard Time)",
+		"endDate": "Tues Jan 1 2019 15:05:31 GMT-0600 (Central Standard Time)",
+		"company": "Google",
+		"course": "Maintenance Recurrent",
+		"classroom": "154",
+		"simSchedule": []
+	},
+	{
+		"id": 4,
+		"name": "Patricia Murphy",
+		"startDate": "Mon Jan 1 2018 15:05:31 GMT-0600 (Central Standard Time)",
+		"endDate": "Tues Jan 1 2019 15:05:31 GMT-0600 (Central Standard Time)",
+		"company": "Amazon",
+		"course": "Pilot Initial",
+		"classroom": "170",
+		"simSchedule": [
+			{
+				"startDate": "Mon Jan 1 2018 01:05:31 GMT-0600 (Central Standard Time)",
+				"endDate": "Tues Jan 1 2019 23:05:31 GMT-0600 (Central Standard Time)",
+				"sim": "SIM #2"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Michael Benjamin",
+		"startDate": "Mon Jan 1 2018 15:05:31 GMT-0600 (Central Standard Time)",
+		"endDate": "Fri Jan 12 2018 15:05:31 GMT-0600 (Central Standard Time)",
+		"company": "ABC Aerospace",
+		"course": "Pilot Recurrent",
+		"classroom": "170",
+		"simSchedule": [
+			{
+				"startDate": "Mon Jan 8 2018 01:05:31 GMT-0600 (Central Standard Time)",
+				"endDate": "Fri Jan 12 2018 23:05:31 GMT-0600 (Central Standard Time)",
+				"sim": "SIM #2"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Sarah Moore",
+		"startDate": "Mon Jan 1 2018 15:05:31 GMT-0600 (Central Standard Time)",
+		"endDate": "Fri Jan 12 2018 15:05:31 GMT-0600 (Central Standard Time)",
+		"company": "Fedex",
+		"course": "Pilot Initial",
+		"classroom": "170",
+		"simSchedule": [
+			{
+				"startDate": "Mon Jan 1 2018 01:05:31 GMT-0600 (Central Standard Time)",
+				"endDate": "Fri Jan 5 2018 23:05:31 GMT-0600 (Central Standard Time)",
+				"sim": "SIM #1"
+			}
+		]
+	}
+]

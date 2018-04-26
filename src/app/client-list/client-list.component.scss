@@ -1,0 +1,60 @@
+@import '~variables.scss';
+
+.mat-list-item {
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom: 1px solid $gray4;
+	color: $black-text;
+	&:hover {
+		background-color: $gray4;
+	}
+	&.active {
+		background-color: $fsi-blue;
+		color: $white-text;
+	}
+}
+
+.mat-toolbar {
+	background-color: $dark-blue;
+	height: 43px;
+	padding: 0;
+	> span {
+		font-size: 14px;
+		font-family: 'Montserrat', Arial, sans-serif;
+	}
+}
+
+.toolbar-spacer {
+	flex: 1 1 auto;
+}
+
+.list-header {
+	background-color: $white;
+}
+
+.fieldset {
+	display: inline-block;
+	min-width: min-content;
+	border: 1px solid $gray4;
+	margin: 10px;
+	position: relative;
+	padding-top: 15px;
+	label {
+		position: absolute;
+		top: -10px;
+		left: 5px;
+		padding: 3px;
+		background-color: $white;
+		font-size: 12px;
+		font-weight: normal;
+		color: $black-text;
+	}
+}
+
+::ng-deep .mat-radio-label-content {
+	font-size: 14px;
+}
+
+.mat-radio-button:first-of-type {
+	margin-right: 10px;
+}

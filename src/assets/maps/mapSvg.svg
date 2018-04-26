@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="root" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 671" enable-background="new 0 0 612 671" xml:space="preserve">
+<g id="artwork">
+	
+		<image display="none" overflow="visible" enable-background="new    " width="1700" height="1852" id="img2" xlink:href="./assets/maps/second floor.png"  transform="matrix(0.36 0 0 0.36 3.794866e-02 5)">
+	</image>
+	
+		<image overflow="visible" enable-background="new    " width="1700" height="1864" id="img1" xlink:href="./assets/maps/first floor.png"  transform="matrix(0.36 0 0 0.36 0 0)">
+	</image>
+</g>
+<g id="map">
+	<g id="floor1">
+		<g id="simBayC">
+			<rect id="G650_x23_2" x="32" y="370" fill="none" width="72" height="86"/>
+			<rect id="G550_x23_2" x="104" y="370" fill="none" width="62" height="86"/>
+			<rect id="G450_x23_1" x="166" y="370" fill="none" width="65" height="86"/>
+		</g>
+		<g id="simBayA">
+			<rect id="G650_x23_1" x="415.5" y="393" fill="none" width="92.5" height="63"/>
+			<rect id="GIV_x23_2" x="415.5" y="330" fill="none" width="92.5" height="63"/>
+			<rect id="GIV_x23_6" x="415.5" y="267" fill="none" width="92.5" height="63"/>
+			<rect id="G550_x23_1" x="415.5" y="217.7" fill="none" width="92.5" height="49.3"/>
+			<rect id="G1" x="415.5" y="181.7" fill="none" width="70.2" height="36"/>
+		</g>
+		<rect id="_x31_72" x="376.7" y="223" fill="none" width="37.3" height="42.3"/>
+		<rect id="_x31_70" x="376.7" y="267" fill="none" width="37.8" height="87.3"/>
+		<rect id="_x31_65" x="376.7" y="354.3" fill="none" width="37.8" height="44"/>
+		<rect id="_x31_63" x="376.7" y="398.3" fill="none" width="37.8" height="26.2"/>
+		<rect id="_x31_61" x="376.7" y="424.5" fill="none" width="37.8" height="31.5"/>
+		<g id="simBayB">
+			<rect id="SIM_x23_2" x="231" y="386.3" fill="none" width="96.7" height="69.7"/>
+			<rect id="G450G550Conv_x23_3" x="231" y="316.3" fill="none" width="96.7" height="70"/>
+			<rect id="SIM_x23_1" x="231" y="267" fill="none" width="96.7" height="49.3"/>
+			<rect id="SIM_x23_4" x="231" y="207" fill="none" width="96.7" height="60"/>
+		</g>
+		<rect id="_x31_54" x="449.6" y="513" fill="none" width="53.8" height="45.3"/>
+		<rect id="_x31_41" x="440.3" y="456" fill="none" width="72" height="47"/>
+		<rect id="_x31_93" x="63" y="485.7" fill="none" width="49.3" height="72.7"/>
+	</g>
+	<g id="floor2" display="none">
+		<rect id="_x32_64" x="346" y="214" display="inline" fill="none" width="89" height="144"/>
+		<rect id="_x32_11" x="252.5" y="410.5" display="inline" fill="none" width="81.5" height="53"/>
+		<rect id="_x32_12" x="252.5" y="478" display="inline" fill="none" width="53.5" height="53.5"/>
+		<rect id="_x32_09" x="192" y="410.5" display="inline" fill="none" width="44" height="67.5"/>
+		<rect id="_x32_95" x="127.5" y="410.5" display="inline" fill="none" width="64.5" height="55"/>
+		<rect id="_x32_32" x="466" y="410.5" display="inline" fill="none" width="73.5" height="55"/>
+		<rect id="_x32_40" x="479.5" y="478" display="inline" fill="none" width="53.5" height="53.5"/>
+	</g>
+	<g id="locator">
+		<path id="_x3C_path_x3E_" fill="#FFA017" stroke="#FFFFFF" stroke-miterlimit="10" d="M10,0C4.5,0,0,4.5,0,10
+			c0,7.5,10,18.6,10,18.6S20,17.5,20,10C20,4.5,15.5,0,10,0z M10,13.6c-2,0-3.6-1.6-3.6-3.6S8,6.4,10,6.4S13.6,8,13.6,10
+			S12,13.6,10,13.6z"/>
+	</g>
+</g>
+</svg>

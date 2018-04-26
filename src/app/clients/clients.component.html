@@ -1,0 +1,51 @@
+<mat-sidenav-container class="example-container">
+	<mat-sidenav #sidenav mode="side" opened="true" role="navigation">
+		<app-client-list [clients]="clients" [date]="date" [center]="center" (navToggle)="sidenav.toggle()"></app-client-list>
+	</mat-sidenav>
+	<mat-sidenav-content [ngClass]="{'closed':!sidenav.opened}">
+		<app-map *ngIf="params.get('mapId')"
+			[mapId]="params.get('mapId')"
+			[floor]="params.get('floorNum')"
+			[room]="params.get('roomId')"
+			(navClose)="sidenav.close()">
+		</app-map>
+
+		<mat-card class="client-details" *ngIf="!params.get('mapId')">
+			<mat-card-content>
+				
+				<div *ngIf="client | async; let client; else noClientSelected">
+					<h3>{{ client.name }}</h3>
+					<h4>{{ client.company }}</h4>
+					<p><strong>Training Dates:</strong> {{ client.startDate | date: 'MM/dd/yy' }} - {{ client.endDate | date: 'MM/dd/yy' }}</p>
+					<p><strong>Course:</strong> {{ client.course }}</p>
+					<p class="list-header"><strong>Possible locations on {{ date | date: 'MM/dd/yy' }}:</strong></p>
+
+					<mat-list role="list" class="location-list">
+						<a mat-list-item role="listitem" (click)="openMap(client.classroom)">
+							<mat-icon color="accent" matListIcon>location_on</mat-icon>
+							<p matLine>Classroom {{ client.classroom }}</p>
+						</a>
+						<a mat-list-item role="listitem" *ngFor="let sim of isInSim(client.simSchedule)" (click)="openMap(sim)">
+							<mat-icon color="accent" matListIcon>location_on</mat-icon>
+							<p matLine>{{ sim.sim }}</p>
+						</a>
+					</mat-list>
+				</div>	
+
+				<ng-template #noClientSelected>
+					<div class="noClient">Select a client to see location details</div>
+				</ng-template>
+
+			</mat-card-content>
+		</mat-card>
+
+		<div class="floating-menu-buttons" [ngClass]="{'animateShow':!sidenav.opened}">
+			<button mat-raised-button color="primary" (click)="sidenav.toggle()">
+				<mat-icon>menu</mat-icon>
+			</button>
+			<button mat-raised-button color="primary" [routerLink]="['/details']">
+				<mat-icon>edit</mat-icon>
+			</button>			
+		</div>
+	</mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+//@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+@import './variables.scss';
+
+// Basic layout
+html, body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	overflow: hidden;
+	background-color: $gray2;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+// buttons
+.mat-raised-button {
+	text-transform: uppercase;
+}
